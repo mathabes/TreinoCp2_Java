@@ -17,6 +17,14 @@ public class Cliente {
 		this.idade = idade;
 		this.peso = peso;
 	}
+	public Cliente(String nome, int idade, double peso, Endereco endereco, Telefone telefone) {
+		super();
+		this.nome = nome;
+		this.idade = idade;
+		this.peso = peso;
+		this.telefone = telefone;
+		this.endereco = endereco;
+	}
 	
 	public String getNome() {
 		return nome;
